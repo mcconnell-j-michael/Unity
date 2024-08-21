@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390f6c0b745c504694616b67fb84e8d, type: 3}
+  m_Name: ExecuteInputState
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 65c506ecc63a64345ad389bf526dcf0f, type: 2}
+    - {fileID: 11400000, guid: 3f9ecf8d177547840a338ba10c1594da, type: 2}
+    - {fileID: 11400000, guid: 872859c9856d9d5499dfefd6653c4560, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: f49243b4e2ac42140a2cd8c63de25cad, type: 2}
+    - {fileID: 7072089214787878996, guid: 7e90851dc1d3b2746b7427fbb630d979, type: 3}
+    - {fileID: 11400000, guid: 763ca70974ac03045a9750a2f334be1c, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ongoingActions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[I_CombatProcessor, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentSubactionProcessor
+      Entry: 7
+      Data: 1|SubactionProcessor, Assembly-CSharp
+    - Name: actionExecutable
+      Entry: 7
+      Data: 2|ActionExecutable, Assembly-CSharp
+    - Name: builder
+      Entry: 7
+      Data: 3|Ashen.DeliverySystem.DeliveryPackBuilder, Assembly-CSharp
+    - Name: visualize
+      Entry: 6
+      Data: 
+    - Name: deliveryPack
+      Entry: 7
+      Data: 4|Ashen.DeliverySystem.DamagePackBuilder, Assembly-CSharp
+    - Name: useWeapon
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 10
+      Data: 0
+    - Name: value
+      Entry: 7
+      Data: 5|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equation
+      Entry: 7
+      Data: 6|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 7
+      Data: 7|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 9|Ashen.EquationSystem.AttributeValue, Assembly-CSharp
+    - Name: attribute
+      Entry: 10
+      Data: 1
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 10|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 3
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplier
+      Entry: 6
+      Data: 
+    - Name: flat
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: preFilters
+      Entry: 6
+      Data: 
+    - Name: postFilters
+      Entry: 7
+      Data: 11|Ashen.DeliverySystem.UpdatePrimaryResourceFilterBuilder, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: targetChoice
+      Entry: 3
+      Data: 0
+    - Name: value
+      Entry: 7
+      Data: 12|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equation
+      Entry: 7
+      Data: 13|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 7
+      Data: 14|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 16|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 1
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplier
+      Entry: 6
+      Data: 
+    - Name: flat
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: source
+      Entry: 10
+      Data: 3
+    - Name: target
+      Entry: 10
+      Data: 4
+    - Name: sourceAbility
+      Entry: 7
+      Data: 17|AbilityAction, Assembly-CSharp
+    - Name: speedCategory
+      Entry: 10
+      Data: 5
+    - Name: speedFactor
+      Entry: 7
+      Data: 18|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 20|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 1
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: deliveryPack
+      Entry: 9
+      Data: 3
+    - Name: animation
+      Entry: 10
+      Data: 6
+    - Name: targetParty
+      Entry: 3
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: Frenzied Strike
+    - Name: primaryResourceCost
+      Entry: 7
+      Data: 21|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: false
+    - Name: reason
+      Entry: 1
+      Data: Empty Equation
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: primaryResourceGenerator
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectFloatArguments
+      Entry: 6
+      Data: 
+    - Name: retargeted
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: animationExecutable
+      Entry: 7
+      Data: 23|AnimationExecutable, Assembly-CSharp
+    - Name: animation
+      Entry: 10
+      Data: 6
+    - Name: location
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -5.08
+    - Name: 
+      Entry: 4
+      Data: 0.210000038
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: waitTime
+      Entry: 4
+      Data: 0.3
+    - Name: position
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  actionStart: {fileID: 0}
+  actionEnd: {fileID: 0}

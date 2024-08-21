@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1716a49d52a304ea5b28fa27932cd4, type: 3}
+  m_Name: DefaultStatusToolConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: a5088f133860c4b44b15d394a00efbfa, type: 2}
+    - {fileID: 11400000, guid: b022f3a096c9e8c4f8e3711612f7863c, type: 2}
+    - {fileID: 11400000, guid: 3452723a751f4434aa004653de937b3b, type: 2}
+    - {fileID: 11400000, guid: 196e0bb411a0bd64dbaa60931c745203, type: 2}
+    - {fileID: 11400000, guid: 04eb8b206d77c8b428728e9f0f3bb7ca, type: 2}
+    - {fileID: 11400000, guid: 0e84a5289a3b3d94c9ac9b9373167a69, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: statusEffectResultMap
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Ashen.ToolSystem.ResourceValue,
+        Assembly-CSharp],[Ashen.DeliverySystem.DeliveryPackScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Ashen.ToolSystem.ResourceValue,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultStatusEffects
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[StatusEffectScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: additionalStatusEffects
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[StatusEffectScriptableObject, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isDefault: 1

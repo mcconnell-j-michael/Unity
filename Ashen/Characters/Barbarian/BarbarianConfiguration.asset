@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab4f11b9fdc6eb4ba2d71034e488df6, type: 3}
+  m_Name: BarbarianConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 5a7ba43aa1810a24fb4af157515c21ed, type: 2}
+    - {fileID: 11400000, guid: 5824e5c051db43341b2ca28a428a592d, type: 2}
+    - {fileID: 11400000, guid: d47dc0898d2ff5b4e96ea9d682df6497, type: 2}
+    - {fileID: 11400000, guid: 9745ba10259214147a4cda7142307bb6, type: 2}
+    - {fileID: 11400000, guid: 8d770088a19a73446b8812aac2e41a87, type: 2}
+    - {fileID: 11400000, guid: 89791534dc59844479dbad6bcc3fcf1c, type: 2}
+    - {fileID: 11400000, guid: f0970c590d7b841418351e27947f9282, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: configs
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Ashen.ToolSystem.I_Configuration,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  className: Barbarian
+  partyItemConfiguration: {fileID: 0}

@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdfa847b49bf324a851ad3903f8b670, type: 3}
+  m_Name: FireBall
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: d4b8b503cecd0d94987983d1552d15cf, type: 2}
+    - {fileID: 11400000, guid: 872859c9856d9d5499dfefd6653c4560, type: 2}
+    - {fileID: 11400000, guid: b25aa01a2b1a1674ead339eb3d4710d1, type: 2}
+    - {fileID: 11400000, guid: 13534a707d4729b4f89b0392b49b9478, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: deliveryPack
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ListEffect, Assembly-CSharp
+    - Name: effects
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_Effect, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|Ashen.DeliverySystem.DamagePack, Assembly-CSharp
+    - Name: DamageTypes
+      Entry: 7
+      Data: 3|Ashen.DeliverySystem.SimpleDamageType, Assembly-CSharp
+    - Name: damageType
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: equation
+      Entry: 7
+      Data: 4|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 7
+      Data: 5|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 7|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 8|Ashen.EquationSystem.AttributeValue, Assembly-CSharp
+    - Name: attribute
+      Entry: 10
+      Data: 2
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Ashen.DeliverySystem.StatusEffectPack, Assembly-CSharp
+    - Name: Copy
+      Entry: 10
+      Data: 3
+    - Name: TickerPack
+      Entry: 7
+      Data: 10|Ashen.DeliverySystem.TimeTickerPack, Assembly-CSharp
+    - Name: duration
+      Entry: 7
+      Data: 11|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 7
+      Data: 12|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 14|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 15|Ashen.EquationSystem.AttributeValue, Assembly-CSharp
+    - Name: attribute
+      Entry: 10
+      Data: 2
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: frequency
+      Entry: 7
+      Data: 16|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 7
+      Data: 17|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 19|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: descriptions
+      Entry: 6
+      Data: 

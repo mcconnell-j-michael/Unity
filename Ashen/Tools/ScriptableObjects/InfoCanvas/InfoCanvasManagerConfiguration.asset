@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de44f53f31d032743b4ed40037fa85e4, type: 3}
+  m_Name: InfoCanvasManagerConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: ae15f9e5a51cb314190ad9284ed9bace, type: 2}
+    - {fileID: 11400000, guid: f2201a03bb2fdfb44bdb1719d079741f, type: 2}
+    - {fileID: 11400000, guid: d4b8b503cecd0d94987983d1552d15cf, type: 2}
+    - {fileID: 11400000, guid: 65c506ecc63a64345ad389bf526dcf0f, type: 2}
+    - {fileID: 11400000, guid: d2def38733cbbde4182d14a8d703a1bc, type: 2}
+    - {fileID: 11400000, guid: 4195d1f36fb4e454d988a4290de6a6c9, type: 2}
+    - {fileID: 11400000, guid: fb9778dc86a77ed46a4cae2e74f89cd6, type: 2}
+    - {fileID: 11400000, guid: 3f2007123d8354c4bb44a4d291c9482e, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: barConfigurations
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Ashen.DeliverySystem.DamageType,
+        Assembly-CSharp],[BarInfo, Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Ashen.DeliverySystem.DamageType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 113
+    - Name: 
+      Entry: 3
+      Data: 113
+    - Name: 
+      Entry: 3
+      Data: 113
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 27
+    - Name: 
+      Entry: 3
+      Data: 68
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 5|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 6|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 3
+      Data: 108
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 7|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 96
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 8|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 250
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 9|BarInfo, Assembly-CSharp
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color32, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 227
+    - Name: 
+      Entry: 3
+      Data: 255
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useBarInitialValue
+      Entry: 5
+      Data: true
+    - Name: barInitialValue
+      Entry: 4
+      Data: 15
+    - Name: useBarGrowthValue
+      Entry: 5
+      Data: true
+    - Name: barGrowthValue
+      Entry: 4
+      Data: 30
+    - Name: defaultResourceValues
+      Entry: 6
+      Data: 
+    - Name: useSymbolInitialValue
+      Entry: 5
+      Data: true
+    - Name: symbolInitialValue
+      Entry: 4
+      Data: 50
+    - Name: useSymbolGrowthValue
+      Entry: 5
+      Data: true
+    - Name: symbolGrowthValue
+      Entry: 4
+      Data: 100
+  isDefault: 0

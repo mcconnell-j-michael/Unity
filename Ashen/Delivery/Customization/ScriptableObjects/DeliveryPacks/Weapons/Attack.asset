@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdfa847b49bf324a851ad3903f8b670, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 65c506ecc63a64345ad389bf526dcf0f, type: 2}
+    - {fileID: 11400000, guid: 3f9ecf8d177547840a338ba10c1594da, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: deliveryPack
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ListEffectBuilder, Assembly-CSharp
+    - Name: effects
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_EffectBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Ashen.DeliverySystem.DamagePackBuilder, Assembly-CSharp
+    - Name: option
+      Entry: 3
+      Data: 0
+    - Name: useWeapon
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 10
+      Data: 0
+    - Name: damageTypes
+      Entry: 6
+      Data: 
+    - Name: value
+      Entry: 7
+      Data: 3|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equation
+      Entry: 7
+      Data: 4|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 7
+      Data: 5|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Ashen.EquationSystem.AttributeValue, Assembly-CSharp
+    - Name: attribute
+      Entry: 10
+      Data: 1
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 1
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplier
+      Entry: 6
+      Data: 
+    - Name: flat
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: descriptions
+      Entry: 6
+      Data: 
+  visualize: Deal [Ashen.DeliverySystem.ScalingValueBuilder] OF Normal

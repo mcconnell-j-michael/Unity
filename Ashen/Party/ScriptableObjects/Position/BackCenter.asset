@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbe86ac423227146bd95a3b33e5d024, type: 3}
+  m_Name: BackCenter
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: index
+      Entry: 3
+      Data: 4
+  firstDependency: {fileID: 11400000, guid: 275f6fe5e08d8d54e9e618906a3c4943, type: 2}
+  secondDependency: {fileID: 11400000, guid: dbe4e057baf61a641971371a3bc6ac4b, type: 2}
+  right: {fileID: 11400000, guid: 763ca70974ac03045a9750a2f334be1c, type: 2}
+  left: {fileID: 11400000, guid: ae58f878dabb21f43a9563e2016a4732, type: 2}
+  up: {fileID: 0}
+  down: {fileID: 0}

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4478210b6dd1de945bb80c285296812a, type: 3}
+  m_Name: TestLegWound
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 11883ab99f9cc5a4fa98cf99128c7b70, type: 2}
+    - {fileID: 11400000, guid: 78b98570cd2954a4fa50876e0d210c5a, type: 2}
+    - {fileID: 11400000, guid: c9bde932f9fd69444bf3fb4d975d47f0, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: woundBuilder
+      Entry: 7
+      Data: 0|Ashen.WoundSystem.WoundBuilder, Assembly-CSharp
+    - Name: key
+      Entry: 1
+      Data: TestLegWound
+    - Name: baseStatusEffects
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_ComponentBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Ashen.DeliverySystem.AttributeComponentBuilder, Assembly-CSharp
+    - Name: attributeType
+      Entry: 10
+      Data: 0
+    - Name: shiftCategory
+      Entry: 10
+      Data: 1
+    - Name: deliveryValue
+      Entry: 7
+      Data: 3|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equationValue
+      Entry: 7
+      Data: 4|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 6|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multipleScale
+      Entry: 7
+      Data: 7|Ashen.DeliverySystem.DerivedAttributeValue, Assembly-CSharp
+    - Name: derivedAttribute
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flatScale
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  woundCategory: {fileID: 11400000, guid: 6246f297b631d3949932d2ef08e981d7, type: 2}

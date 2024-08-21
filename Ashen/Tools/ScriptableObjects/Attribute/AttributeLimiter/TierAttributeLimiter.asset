@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ca761be57530d41a74bb1174610521, type: 3}
+  m_Name: TierAttributeLimiter
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: index
+      Entry: 3
+      Data: 2
+    - Name: overrideShiftCategoryOrder
+      Entry: 5
+      Data: false
+    - Name: shiftCategoryOrder
+      Entry: 6
+      Data: 
+    - Name: limiterDefinitions
+      Entry: 6
+      Data: 
+    - Name: passThroughLimiter
+      Entry: 5
+      Data: false

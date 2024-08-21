@@ -1,0 +1,61 @@
+.panel {
+    background-image: none;
+    background-color: rgb(8, 156, 178);
+}
+
+.menu {
+    align-items: stretch;
+    background-color: rgb(28, 101, 125);
+    width: 25%;
+    justify-content: space-around;
+    height: 50%;
+    border-left-color: rgb(47, 178, 197);
+    border-right-color: rgb(47, 178, 197);
+    border-top-color: rgb(47, 178, 197);
+    border-bottom-color: rgb(47, 178, 197);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.unity-button {
+    justify-content: flex-start;
+    height: auto;
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    -unity-font-style: bold;
+    font-size: 25px;
+    border-left-color: rgb(1, 31, 46);
+    border-right-color: rgb(1, 31, 46);
+    border-top-color: rgb(1, 31, 46);
+    border-bottom-color: rgb(1, 31, 46);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    background-color: rgb(47, 178, 197);
+    transition-property: scale;
+    transition-duration: 0.25s;
+}
+
+.logo {
+    flex-grow: 1;
+    height: 25%;
+}
+
+.unity-label {
+    flex-grow: 1;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    font-size: 200%;
+    -unity-font-style: bold;
+}
+
+.unity-button:hover {
+    background-color: rgb(159, 148, 0);
+    scale: 1.1 1.1;
+}

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fba4dc7554062542b6e8605057b18df, type: 3}
+  m_Name: TestEquation
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 872859c9856d9d5499dfefd6653c4560, type: 2}
+    - {fileID: 11400000, guid: 8cc7a53e978454446a375ed1fbbe090d, type: 2}
+    - {fileID: 11400000, guid: e7c282673dcd48a4ea3b37bd9965e5c8, type: 2}
+    - {fileID: 11400000, guid: 3c1deee1c6d02dd449e2fa5640f93010, type: 2}
+    - {fileID: 11400000, guid: efc502d50b5f44047887046675fcf2d0, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: value
+      Entry: 7
+      Data: 0|Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[I_EquationComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 7
+      Data: 2|BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|AttributeValue, Assembly-CSharp
+    - Name: attribute
+      Entry: 10
+      Data: 2
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 7
+      Data: 4|BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 11
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 

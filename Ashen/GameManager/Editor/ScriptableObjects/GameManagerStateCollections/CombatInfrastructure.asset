@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c0e4197a4d7b546968988b1f6a793f, type: 3}
+  m_Name: CombatInfrastructure
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  gameManagerStates:
+  - {fileID: 11400000, guid: fd2e13bcbb08d1847b8c53136d7eb6ca, type: 2}
+  - {fileID: 11400000, guid: 46dd09c9d5f568142b9d6e76fd920981, type: 2}
+  - {fileID: 11400000, guid: 9af504f110f34a14c85978d522b14ab7, type: 2}
+  - {fileID: 11400000, guid: 1bced4e0acc87b1499f7a898dfb90f59, type: 2}
+  - {fileID: 11400000, guid: 13d3ee237f30df64289eff553c03aaaf, type: 2}

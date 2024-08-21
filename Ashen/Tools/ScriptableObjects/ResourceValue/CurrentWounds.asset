@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ebb83bcfb7e49479e28e29d8d76bca, type: 3}
+  m_Name: CurrentWounds
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 9ff1430aafb4b1243956fa4160625dcc, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: index
+      Entry: 3
+      Data: 4
+    - Name: threshold
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ThresholdBuilder, Assembly-CSharp
+    - Name: thresholdType
+      Entry: 3
+      Data: 0
+    - Name: maxValue
+      Entry: 10
+      Data: 0
+    - Name: hasDecay
+      Entry: 5
+      Data: false
+    - Name: decayDelay
+      Entry: 6
+      Data: 
+    - Name: decayRate
+      Entry: 6
+      Data: 
+    - Name: maxIncrease
+      Entry: 3
+      Data: 1
+    - Name: maxDecrease
+      Entry: 3
+      Data: 1
+    - Name: onThresholdMet
+      Entry: 3
+      Data: 2
+    - Name: triggerEvents
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  listenOn: []
+  color1: {r: 0, g: 0, b: 0, a: 0}
+  color2: {r: 0, g: 0, b: 0, a: 0}
+  displayName: Wounds

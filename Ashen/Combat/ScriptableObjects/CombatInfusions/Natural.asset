@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61fd1412abcf14faecb9688490fbb3, type: 3}
+  m_Name: Natural
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: index
+      Entry: 3
+      Data: 3
+  infusionEffectResistance: {fileID: 11400000, guid: 07e887bf741649649a92a323c2339b64, type: 2}
+  infusionEffectResistanceMult: {fileID: 11400000, guid: 6d6bbb82717d4954aaffde08839ca747, type: 2}
+  infusionLevel: {fileID: 11400000, guid: 29246f34a22aec74eaceb0c10d85ee46, type: 2}
+  infusionMaxLevel: {fileID: 11400000, guid: 1dbf164c5e0437e40964172884feeb74, type: 2}
+  saturationBaseLimit: {fileID: 11400000, guid: 3f26fb32e7f379f49a6a16588279193d, type: 2}
+  saturationBonusLimit: {fileID: 11400000, guid: 36b3a3aa60ce9a94d911d15fee9937e6, type: 2}
+  saturationLimit: {fileID: 11400000, guid: cb6c11fe663784847ad2974fef92c86d, type: 2}
+  saturationMax: {fileID: 11400000, guid: 3062faaf74104ff4394df415f76ae4f1, type: 2}
+  currentSaturationValue: {fileID: 11400000, guid: 3092c6d7d3d0c3548a9030ba874c3986, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feaa9a8c1e9cb2745afc355620e00d71, type: 3}
+  m_Name: AbilitySpeedProcessOrder
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  speedCategoryOrder:
+  - {fileID: 11400000, guid: 31e16a148bebf6b44b204d89f356a7ed, type: 2}
+  - {fileID: 11400000, guid: f49243b4e2ac42140a2cd8c63de25cad, type: 2}
+  - {fileID: 11400000, guid: 88ae6a42ac2b40e42a1aa39b61f6f376, type: 2}

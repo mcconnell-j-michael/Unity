@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554f638d7c7e08542a2ec2a2cb4456c5, type: 3}
+  m_Name: Faculties
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: f10d1ffa38769374db69049d0018b8bd, type: 2}
+    - {fileID: 11400000, guid: 4208d2f67ae3b4740a516cc911807966, type: 2}
+    - {fileID: 11400000, guid: da84af7dfc4eba444af07f80839d4103, type: 2}
+    - {fileID: 11400000, guid: 272e47f36b342ee4ab61bcb974806d77, type: 2}
+    - {fileID: 11400000, guid: 446987339ef72444ea5520cfc6eb30d6, type: 2}
+    - {fileID: 11400000, guid: 1f9b48a63073a574eb42365e30490880, type: 2}
+    - {fileID: 11400000, guid: 814d2e21753b77c478cb5dd5a263ab4a, type: 2}
+    - {fileID: 11400000, guid: deb02d47b77d56a44b8ac858a8a65821, type: 2}
+    - {fileID: 11400000, guid: eed5079f881b7fc45860cc2667b4094e, type: 2}
+    - {fileID: 11400000, guid: a7a2b3689f971824abb1ee4eadef14a5, type: 2}
+    - {fileID: 11400000, guid: 864d40aaa4ee86d4ca0fe9a16a2c4dea, type: 2}
+    - {fileID: 11400000, guid: 48a6853220c02114dbbedc41effa8ceb, type: 2}
+    - {fileID: 11400000, guid: 0e941e43ea749604ea42ee59898f14ea, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: enumList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Faculty, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  recieveDamage: {fileID: 11400000, guid: 0e941e43ea749604ea42ee59898f14ea, type: 2}
+  recieveHealing: {fileID: 11400000, guid: 864d40aaa4ee86d4ca0fe9a16a2c4dea, type: 2}
+  CHOOSE_ACTION: {fileID: 11400000, guid: 4208d2f67ae3b4740a516cc911807966, type: 2}
+  CONSCIOUS: {fileID: 11400000, guid: f6ee71bdf82aa794da1af6ac4b98fbdc, type: 2}
+  ALIVE: {fileID: 11400000, guid: 446987339ef72444ea5520cfc6eb30d6, type: 2}

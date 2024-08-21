@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3689d97761a5d3a429b55e37bde53ac0, type: 3}
+  m_Name: TestPartyOne
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: e12585cb8b21a314b8560b87bb579618, type: 2}
+    - {fileID: 7396788821460858422, guid: f25c0aeb63d961a49896091cd6f6808b, type: 3}
+    - {fileID: 11400000, guid: ae20bf9207486f44d8e9b39e55a828be, type: 2}
+    - {fileID: 11400000, guid: f10d1ffa38769374db69049d0018b8bd, type: 2}
+    - {fileID: 11400000, guid: dd61e207138ebe94ba6e0696a59e9100, type: 2}
+    - {fileID: 11400000, guid: 633260fa4e5180543ac744626ff390a1, type: 2}
+    - {fileID: 11400000, guid: 21e6deff7db18c24a91683f566e907fe, type: 2}
+    - {fileID: 11400000, guid: 7f794cfd2fad2f042aba66cbef179275, type: 2}
+    - {fileID: 11400000, guid: de80ce1f99d5a2744bd50cd89b470537, type: 2}
+    - {fileID: 11400000, guid: 275f6fe5e08d8d54e9e618906a3c4943, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: partyComposition
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PartyPosition, Assembly-CSharp],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[PartyPosition,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: combatCheckers
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Ashen.CombatSystem.CombatChecker,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 3|Ashen.CombatSystem.CombatChecker, Assembly-CSharp
+    - Name: condition
+      Entry: 7
+      Data: 4|Ashen.CombatSystem.MissingFaculty, Assembly-CSharp
+    - Name: faculty
+      Entry: 10
+      Data: 3
+    - Name: enemy
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: result
+      Entry: 7
+      Data: 5|Ashen.CombatSystem.EndCombatWIthState, Assembly-CSharp
+    - Name: state
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enabledProcessorTypes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Ashen.StateMachineSystem.CombatProcessorType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Ashen.CombatSystem.CombatChecker, Assembly-CSharp
+    - Name: condition
+      Entry: 7
+      Data: 8|Ashen.CombatSystem.MissingFaculty, Assembly-CSharp
+    - Name: faculty
+      Entry: 10
+      Data: 3
+    - Name: enemy
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: result
+      Entry: 7
+      Data: 9|Ashen.CombatSystem.EndCombatWIthState, Assembly-CSharp
+    - Name: state
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enabledProcessorTypes
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[Ashen.StateMachineSystem.CombatProcessorType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Ashen.CombatSystem.CombatChecker, Assembly-CSharp
+    - Name: condition
+      Entry: 7
+      Data: 12|Ashen.CombatSystem.MissingFacultyRow, Assembly-CSharp
+    - Name: faculty
+      Entry: 10
+      Data: 3
+    - Name: row
+      Entry: 10
+      Data: 8
+    - Name: enemy
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: result
+      Entry: 7
+      Data: 13|Ashen.CombatSystem.SwapRows, Assembly-CSharp
+    - Name: enemy
+      Entry: 5
+      Data: true
+    - Name: firstRow
+      Entry: 10
+      Data: 9
+    - Name: secondRow
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enabledProcessorTypes
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[Ashen.StateMachineSystem.CombatProcessorType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Ashen.CombatSystem.CombatChecker, Assembly-CSharp
+    - Name: condition
+      Entry: 7
+      Data: 16|Ashen.CombatSystem.MissingFacultyRow, Assembly-CSharp
+    - Name: faculty
+      Entry: 10
+      Data: 3
+    - Name: row
+      Entry: 10
+      Data: 8
+    - Name: enemy
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: result
+      Entry: 7
+      Data: 17|Ashen.CombatSystem.SwapRows, Assembly-CSharp
+    - Name: enemy
+      Entry: 5
+      Data: false
+    - Name: firstRow
+      Entry: 10
+      Data: 9
+    - Name: secondRow
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enabledProcessorTypes
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[Ashen.StateMachineSystem.CombatProcessorType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

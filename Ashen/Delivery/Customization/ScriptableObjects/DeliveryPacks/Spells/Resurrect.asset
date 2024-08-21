@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdfa847b49bf324a851ad3903f8b670, type: 3}
+  m_Name: Resurrect
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: a837d83c30723c448941a6add0524791, type: 2}
+    - {fileID: 11400000, guid: f89a00d9cd5980a41bbfaf684565e509, type: 2}
+    - {fileID: 11400000, guid: 4a34d587931e1d74398e2268d8b4dea1, type: 2}
+    - {fileID: 11400000, guid: 2e3026a6604cbae47a60ba16cc7e359b, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: deliveryPack
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ListEffectBuilder, Assembly-CSharp
+    - Name: effects
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_EffectBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|Ashen.DeliverySystem.ResourceChangeEffectBuilder, Assembly-CSharp
+    - Name: primaryResource
+      Entry: 5
+      Data: false
+    - Name: resourceValue
+      Entry: 10
+      Data: 0
+    - Name: value
+      Entry: 7
+      Data: 3|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equation
+      Entry: 7
+      Data: 4|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 7
+      Data: 5|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Ashen.EquationSystem.AttributeValue, Assembly-CSharp
+    - Name: attribute
+      Entry: 10
+      Data: 1
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplier
+      Entry: 6
+      Data: 
+    - Name: flat
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Ashen.DeliverySystem.RemoveExtendedEffectsWithTagBuilder, Assembly-CSharp
+    - Name: tags
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[Ashen.DeliverySystem.ExtendedEffectTag,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: descriptions
+      Entry: 6
+      Data: 
+  visualize: 'HP += MaxHealth
+
+    Disable StatusEffects with tags: [Dead, Unconcious]'

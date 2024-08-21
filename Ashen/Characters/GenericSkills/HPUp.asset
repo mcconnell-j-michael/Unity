@@ -1,0 +1,2358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72da282f8bb4e4b488da84aef199d84b, type: 3}
+  m_Name: HPUp
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: c51243bcc307e1e4e9bc92b6acd65ab3, type: 2}
+    - {fileID: 11400000, guid: f89a00d9cd5980a41bbfaf684565e509, type: 2}
+    - {fileID: 11400000, guid: acd154a390727ab42a65cfac41713ac7, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: abilitySkillNode
+      Entry: 7
+      Data: 0|Ashen.SkillTree.AbilitySkillNode, Assembly-CSharp
+    - Name: FocusedSkill
+      Entry: 6
+      Data: 
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: skillLevel
+      Entry: 3
+      Data: 8
+    - Name: choice
+      Entry: 3
+      Data: -1
+    - Name: skills
+      Entry: 6
+      Data: 
+    - Name: baseAbility
+      Entry: 6
+      Data: 
+    - Name: builder
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: passiveSkillNode
+      Entry: 7
+      Data: 1|Ashen.SkillTree.PassiveSkillNode, Assembly-CSharp
+    - Name: FocusedSkill
+      Entry: 7
+      Data: 2|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 3|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 4|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 5|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: skillLevel
+      Entry: 3
+      Data: 8
+    - Name: choice
+      Entry: 3
+      Data: 8
+    - Name: skills
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Ashen.SkillTree.PassiveSkillNodeOverride,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 100
+    - Name: 
+      Entry: 7
+      Data: 7|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 8|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 9|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 10|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 12|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 13|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 14|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0.01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 16|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 17|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 18|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0.02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 20|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 21|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 22|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0.06
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 24|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 25|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 26|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0.07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 28|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 29|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 30|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0.08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 32|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 33|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 34|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0.09
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 35|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 54|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 55|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 57|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 59|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 62|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 65|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 68|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 69|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 70|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 71|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 72|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 73|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 74|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 75|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 76|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 77|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 78|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 79|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 80|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 81|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 82|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 83|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 85|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 86|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 87|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 89|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 91|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 92|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 93|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 94|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 95|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 96|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 97|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 98|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 99|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 100|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 101|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 102|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 103|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 104|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 105|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 106|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 107|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 108|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 109|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 110|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 111|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 112|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 113|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 114|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 115|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 116|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 117|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 118|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 119|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 120|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 121|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 122|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 123|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 124|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 125|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 126|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 127|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 128|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 129|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 130|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 131|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 132|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 133|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 134|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 135|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 136|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 137|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 138|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 139|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 140|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 141|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 142|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 143|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 144|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 145|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 146|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 147|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 148|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 149|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 150|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 151|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 152|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 153|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 154|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 155|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 156|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 157|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 158|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 159|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 160|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 161|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 162|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 163|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 164|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 165|Ashen.SkillTree.PassiveSkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 166|Ashen.SkillTree.ScaleDeliveryPack, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 167|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: baseAbility
+      Entry: 6
+      Data: 
+    - Name: builder
+      Entry: 7
+      Data: 168|Ashen.SkillTree.SkillNodeEffectBuilder, Assembly-CSharp
+    - Name: key
+      Entry: 1
+      Data: HPUp
+    - Name: baseStatusEffects
+      Entry: 7
+      Data: 169|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_ComponentBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 170|Ashen.DeliverySystem.AttributeComponentBuilder, Assembly-CSharp
+    - Name: attributeType
+      Entry: 10
+      Data: 1
+    - Name: shiftCategory
+      Entry: 10
+      Data: 2
+    - Name: deliveryValue
+      Entry: 7
+      Data: 171|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equationValue
+      Entry: 7
+      Data: 172|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 173|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 174|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0.05
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 1
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multipleScale
+      Entry: 6
+      Data: 
+    - Name: flatScale
+      Entry: 7
+      Data: 175|Ashen.DeliverySystem.EffectFloatArgumentValue, Assembly-CSharp
+    - Name: argument
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  levels: 8
+  skillLevels: 8
+  skillType: 1

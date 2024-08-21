@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ashen/UiToolKit/MainMenuTest/MainMenu.uss?fileID=7433441132597879392&amp;guid=5d75b0ee1e640d54286ae211578d608a&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="Menu" class="menu">
+            <ui:VisualElement name="Logo" class="logo">
+                <ui:Label tabindex="-1" text="Depths Of Heaven" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayButton" style="border-left-color: rgb(0, 30, 46); border-right-color: rgb(0, 30, 46); border-top-color: rgb(0, 30, 46); border-bottom-color: rgb(0, 30, 46);" />
+            <ui:Button text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionsButton" />
+            <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af225ae97c4d3c4b90d1daf35497513, type: 3}
+  m_Name: EffectFloatArguments
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 7c94831c93c39064580fcf7b2f18b031, type: 2}
+    - {fileID: 11400000, guid: 0ba57f269c5eca045829be96e385d81b, type: 2}
+    - {fileID: 11400000, guid: c51243bcc307e1e4e9bc92b6acd65ab3, type: 2}
+    - {fileID: 11400000, guid: 6495e29b94052264d9064db0fb02b1fe, type: 2}
+    - {fileID: 11400000, guid: 7bfdb3e1f6c998f4fbd1faf0e7a21c70, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: enumList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[A_EffectFloatArgument, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  reservedDamageScale: {fileID: 11400000, guid: 6495e29b94052264d9064db0fb02b1fe, type: 2}

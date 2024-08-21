@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93a9065db4ecd3438cfd185a53f1de2, type: 3}
+  m_Name: DefaultTriggerToolConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 4ec243cbd6c090941baf301140dad370, type: 2}
+    - {fileID: 11400000, guid: a48edcfa1218a8c4fbc772185c51b7e0, type: 2}
+    - {fileID: 11400000, guid: c5d4a1c243a10d74da73f927c443bf9d, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: onTriggerEffects
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Ashen.DeliverySystem.ExtendedEffectTrigger,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[Ashen.ToolSystem.I_TriggerEffect,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[Ashen.DeliverySystem.ExtendedEffectTrigger,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Ashen.ToolSystem.I_TriggerEffect,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Ashen.ToolSystem.IfFacultyThenTrigger, Assembly-CSharp
+    - Name: faculty
+      Entry: 10
+      Data: 1
+    - Name: toTrigger
+      Entry: 10
+      Data: 2
+    - Name: inverse
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: addOnTriggerEffects
+      Entry: 6
+      Data: 
+  isDefault: 1

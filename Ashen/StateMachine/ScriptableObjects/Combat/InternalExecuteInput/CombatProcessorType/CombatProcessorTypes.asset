@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf36a5b81400934d8e0821abdf76505, type: 3}
+  m_Name: CombatProcessorTypes
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 633260fa4e5180543ac744626ff390a1, type: 2}
+    - {fileID: 11400000, guid: 21e6deff7db18c24a91683f566e907fe, type: 2}
+    - {fileID: 11400000, guid: 8458f41036858414c88b21c365c51385, type: 2}
+    - {fileID: 11400000, guid: f0bc2f86331936a45a013e3836ac0609, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: enumList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Ashen.StateMachineSystem.CombatProcessorType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  PRIMARY_ACTION: {fileID: 11400000, guid: 633260fa4e5180543ac744626ff390a1, type: 2}
+  COMBAT_ACTION: {fileID: 11400000, guid: 21e6deff7db18c24a91683f566e907fe, type: 2}
+  SUPPORTING_ACTION: {fileID: 11400000, guid: 8458f41036858414c88b21c365c51385, type: 2}
+  ONGOING_ACTION: {fileID: 11400000, guid: f0bc2f86331936a45a013e3836ac0609, type: 2}

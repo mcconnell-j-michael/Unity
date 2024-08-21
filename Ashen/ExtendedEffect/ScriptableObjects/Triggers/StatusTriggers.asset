@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601fdd5e86120a24e902047d203d9af9, type: 3}
+  m_Name: StatusTriggers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: f371b21b48bf88b4aaa06baf7e5102d1, type: 2}
+    - {fileID: 11400000, guid: 8bac2679edd7e0b43bfbb02d35083752, type: 2}
+    - {fileID: 11400000, guid: 8f273f7a44f87934697fdd372a686a19, type: 2}
+    - {fileID: 11400000, guid: 15ecdf524ce732442a9456f031a33f77, type: 2}
+    - {fileID: 11400000, guid: c5adbd3af473c774680387ff53cea42f, type: 2}
+    - {fileID: 11400000, guid: 55285686f118925408c4d1200783731d, type: 2}
+    - {fileID: 11400000, guid: 19400de009fc8e2489301f022f0c4d91, type: 2}
+    - {fileID: 11400000, guid: 4adcc83b73d65e445b70cd39b4241459, type: 2}
+    - {fileID: 11400000, guid: 3e0b06d814150944bb23c6efdbe98c02, type: 2}
+    - {fileID: 11400000, guid: d12531ba447fd2e42b913d82f655dd2b, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: enumList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Ashen.DeliverySystem.ExtendedEffectTrigger,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Tick: {fileID: 11400000, guid: f371b21b48bf88b4aaa06baf7e5102d1, type: 2}
+  UpdateTick: {fileID: 11400000, guid: 8bac2679edd7e0b43bfbb02d35083752, type: 2}
+  TurnStart: {fileID: 11400000, guid: 8f273f7a44f87934697fdd372a686a19, type: 2}
+  TurnEnd: {fileID: 11400000, guid: 15ecdf524ce732442a9456f031a33f77, type: 2}
+  ActionStart: {fileID: 11400000, guid: c5adbd3af473c774680387ff53cea42f, type: 2}
+  ActionEnd: {fileID: 11400000, guid: 55285686f118925408c4d1200783731d, type: 2}
+  Targeted: {fileID: 11400000, guid: 3e0b06d814150944bb23c6efdbe98c02, type: 2}
+  Effected: {fileID: 11400000, guid: d12531ba447fd2e42b913d82f655dd2b, type: 2}
+  BuffRecieved: {fileID: 11400000, guid: 48e91499f7bdb3246a84025dcffc9e43, type: 2}
+  BattleStart: {fileID: 11400000, guid: 13cfd898f8626c642a40d34f09dea8ca, type: 2}
+  BattleEnd: {fileID: 11400000, guid: 03af0d4dfcda61e4ab32408ec35a56de, type: 2}

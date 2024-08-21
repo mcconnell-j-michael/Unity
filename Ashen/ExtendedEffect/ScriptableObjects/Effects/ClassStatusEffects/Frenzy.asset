@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774a91478e31dc548964fb60da606466, type: 3}
+  m_Name: Frenzy
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: fa75e2434e3375e4dae8ed7fdc1deadb, type: 2}
+    - {fileID: 11400000, guid: 32e744cb4560c81438fae00c00114f95, type: 2}
+    - {fileID: 11400000, guid: b7511d61fedb12843ab9a29dfe05f096, type: 2}
+    - {fileID: 11400000, guid: 5524baa051574b64ca53c6ac05137dec, type: 2}
+    - {fileID: 21300000, guid: 391f8050dd31bb04994160aa0dd9d395, type: 3}
+    - {fileID: 21300000, guid: f2f8b860dbefc6d4c970842253e06fdf, type: 3}
+    - {fileID: 21300000, guid: dbabcdc1307aefb4bae749574b34316a, type: 3}
+    - {fileID: 21300000, guid: 9fccc796700d8a647bb8d3e3cfa24775, type: 3}
+    - {fileID: 21300000, guid: dc146abd7ac659d439767faac33ef083, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: statusEffect
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ExtendedEffectBuilder, Assembly-CSharp
+    - Name: key
+      Entry: 1
+      Data: Frenzy
+    - Name: tagHandler
+      Entry: 7
+      Data: 1|Ashen.DeliverySystem.TagHandler, Assembly-CSharp
+    - Name: visualize
+      Entry: 1
+      Data: "if((Argument[NewFrenzyLevel] EQ FrenzyCount))\n{\n\tCancel Status Effect\n\tEND\n}\nDisable
+        StatusEffects with tags: [Frenzy]\nif((Argument[NewFrenzyLevel] EQ 0))\n{\n\tCancel
+        Status Effect\n\tEND\n}\nAdd Tags: [Frenzy]\n"
+    - Name: tagOperations
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_TagOperation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 3|Ashen.DeliverySystem.TagCondition, Assembly-CSharp
+    - Name: tagConditional
+      Entry: 7
+      Data: 4|Ashen.DeliverySystem.ValueConditional, Assembly-CSharp
+    - Name: left
+      Entry: 7
+      Data: 5|Ashen.DeliverySystem.ExtendedEffectArgumentValue, Assembly-CSharp
+    - Name: argument
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: equalityType
+      Entry: 3
+      Data: 2
+    - Name: right
+      Entry: 7
+      Data: 6|Ashen.DeliverySystem.DerivedAttributeValue, Assembly-CSharp
+    - Name: derivedAttribute
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: operation
+      Entry: 7
+      Data: 7|Ashen.DeliverySystem.MultiTagOperation, Assembly-CSharp
+    - Name: operations
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_TagOperation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 9|Ashen.DeliverySystem.CancelExtendedEffect, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Ashen.DeliverySystem.StopTagExecution, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Ashen.DeliverySystem.RemoveEffectsWIthTag, Assembly-CSharp
+    - Name: tags
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[Ashen.DeliverySystem.ExtendedEffectTag,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Ashen.DeliverySystem.TagCondition, Assembly-CSharp
+    - Name: tagConditional
+      Entry: 7
+      Data: 14|Ashen.DeliverySystem.ValueConditional, Assembly-CSharp
+    - Name: left
+      Entry: 7
+      Data: 15|Ashen.DeliverySystem.ExtendedEffectArgumentValue, Assembly-CSharp
+    - Name: argument
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: equalityType
+      Entry: 3
+      Data: 2
+    - Name: right
+      Entry: 7
+      Data: 16|Ashen.DeliverySystem.RangeValue, Assembly-CSharp
+    - Name: zero
+      Entry: 5
+      Data: true
+    - Name: value
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: operation
+      Entry: 7
+      Data: 17|Ashen.DeliverySystem.MultiTagOperation, Assembly-CSharp
+    - Name: operations
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_TagOperation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 19|Ashen.DeliverySystem.CancelExtendedEffect, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Ashen.DeliverySystem.StopTagExecution, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|Ashen.DeliverySystem.ApplyTags, Assembly-CSharp
+    - Name: tags
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[Ashen.DeliverySystem.ExtendedEffectTag,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: baseStatusEffects
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_ComponentBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 24|Ashen.DeliverySystem.AttributeComponentBuilder, Assembly-CSharp
+    - Name: attributeType
+      Entry: 10
+      Data: 1
+    - Name: shiftCategory
+      Entry: 10
+      Data: 3
+    - Name: deliveryValue
+      Entry: 7
+      Data: 25|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equationValue
+      Entry: 7
+      Data: 26|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 28|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multipleScale
+      Entry: 7
+      Data: 29|Ashen.DeliverySystem.ExtendedEffectArgumentValue, Assembly-CSharp
+    - Name: argument
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flatScale
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|Ashen.ExtendedEffectSystem.ValueConditionComponentBuilder, Assembly-CSharp
+    - Name: deliveryValue
+      Entry: 7
+      Data: 31|Ashen.DeliverySystem.ExtendedEffectArgumentValue, Assembly-CSharp
+    - Name: argument
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: valueToEffect
+      Entry: 7
+      Data: 32|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[Ashen.DeliverySystem.I_ComponentBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 33|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 34|Ashen.DeliverySystem.StatusEffectSymbolComponentBuilder, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 35|Ashen.DeliverySystem.StatusEffectSymbolComponentBuilder, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 36|Ashen.DeliverySystem.StatusEffectSymbolComponentBuilder, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 37|Ashen.DeliverySystem.StatusEffectSymbolComponentBuilder, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 38|Ashen.DeliverySystem.StatusEffectSymbolComponentBuilder, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

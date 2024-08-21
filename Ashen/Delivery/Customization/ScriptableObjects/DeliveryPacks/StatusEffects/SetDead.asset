@@ -1,0 +1,445 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdfa847b49bf324a851ad3903f8b670, type: 3}
+  m_Name: SetDead
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: eb1e12623736f6a4db2807de422817a8, type: 2}
+    - {fileID: 11400000, guid: 9ff1430aafb4b1243956fa4160625dcc, type: 2}
+    - {fileID: 11400000, guid: 4a34d587931e1d74398e2268d8b4dea1, type: 2}
+    - {fileID: 11400000, guid: e8fc4163b50245c449c3c681d9fd07d7, type: 2}
+    - {fileID: 11400000, guid: a837d83c30723c448941a6add0524791, type: 2}
+    - {fileID: 11400000, guid: 94e22cd36cc711e4b88e505f25e7935a, type: 2}
+    - {fileID: 11400000, guid: f89a00d9cd5980a41bbfaf684565e509, type: 2}
+    - {fileID: 11400000, guid: 2e3026a6604cbae47a60ba16cc7e359b, type: 2}
+    - {fileID: 11400000, guid: 5101ab70f1129e849a23bf7ec98436c5, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: deliveryPack
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ListEffectBuilder, Assembly-CSharp
+    - Name: effects
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_EffectBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|Ashen.DeliverySystem.ConditionalEffectBuilder, Assembly-CSharp
+    - Name: effectCondition
+      Entry: 7
+      Data: 3|Ashen.DeliverySystem.ResourceValueCondition, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: resourceValue
+      Entry: 10
+      Data: 0
+    - Name: comparable
+      Entry: 3
+      Data: 0
+    - Name: deliveryValue
+      Entry: 7
+      Data: 4|Ashen.DeliverySystem.DerivedAttributeValue, Assembly-CSharp
+    - Name: derivedAttribute
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: equal
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectResult
+      Entry: 7
+      Data: 5|Ashen.DeliverySystem.ConditionalEffectBuilder, Assembly-CSharp
+    - Name: effectCondition
+      Entry: 7
+      Data: 6|Ashen.DeliverySystem.ExtendedEffectTagCondition, Assembly-CSharp
+    - Name: conditional
+      Entry: 7
+      Data: 7|Ashen.DeliverySystem.TagChecker, Assembly-CSharp
+    - Name: tag
+      Entry: 10
+      Data: 2
+    - Name: negate
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectResult
+      Entry: 7
+      Data: 8|Ashen.DeliverySystem.ListEffectBuilder, Assembly-CSharp
+    - Name: effects
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_EffectBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 10|Ashen.DeliverySystem.ExtendedEffectPackBuilder, Assembly-CSharp
+    - Name: Copy
+      Entry: 10
+      Data: 3
+    - Name: TickerPack
+      Entry: 7
+      Data: 11|SkillTickerPack, Assembly-CSharp
+    - Name: frequency
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: argumentBuilders
+      Entry: 6
+      Data: 
+    - Name: save
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Ashen.DeliverySystem.ResourceChangeEffectBuilder, Assembly-CSharp
+    - Name: resourceValue
+      Entry: 10
+      Data: 4
+    - Name: deliveryValue
+      Entry: 7
+      Data: 13|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equationValue
+      Entry: 7
+      Data: 14|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 16|Ashen.EquationSystem.AttributeValue, Assembly-CSharp
+    - Name: enumSO
+      Entry: 10
+      Data: 6
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multipleScale
+      Entry: 6
+      Data: 
+    - Name: flatScale
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Ashen.DeliverySystem.ConditionalEffectBuilder, Assembly-CSharp
+    - Name: effectCondition
+      Entry: 7
+      Data: 18|Ashen.DeliverySystem.ResourceValueCondition, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: resourceValue
+      Entry: 10
+      Data: 0
+    - Name: comparable
+      Entry: 3
+      Data: 1
+    - Name: deliveryValue
+      Entry: 7
+      Data: 19|Ashen.DeliverySystem.DerivedAttributeValue, Assembly-CSharp
+    - Name: derivedAttribute
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: equal
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectResult
+      Entry: 7
+      Data: 20|Ashen.DeliverySystem.ConditionalEffectBuilder, Assembly-CSharp
+    - Name: effectCondition
+      Entry: 7
+      Data: 21|Ashen.DeliverySystem.ExtendedEffectTagCondition, Assembly-CSharp
+    - Name: conditional
+      Entry: 7
+      Data: 22|Ashen.DeliverySystem.TagConditionalOperator, Assembly-CSharp
+    - Name: left
+      Entry: 7
+      Data: 23|Ashen.DeliverySystem.TagChecker, Assembly-CSharp
+    - Name: tag
+      Entry: 10
+      Data: 2
+    - Name: negate
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: operandType
+      Entry: 3
+      Data: 0
+    - Name: right
+      Entry: 7
+      Data: 24|Ashen.DeliverySystem.TagChecker, Assembly-CSharp
+    - Name: tag
+      Entry: 10
+      Data: 7
+    - Name: negate
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectResult
+      Entry: 7
+      Data: 25|Ashen.DeliverySystem.ListEffectBuilder, Assembly-CSharp
+    - Name: effects
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_EffectBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 27|Ashen.DeliverySystem.WoundEffectBuilder, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|Ashen.DeliverySystem.ExtendedEffectPackBuilder, Assembly-CSharp
+    - Name: Copy
+      Entry: 10
+      Data: 8
+    - Name: TickerPack
+      Entry: 7
+      Data: 29|Ashen.DeliverySystem.TimeTickerPack, Assembly-CSharp
+    - Name: duration
+      Entry: 6
+      Data: 
+    - Name: frequency
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: argumentBuilders
+      Entry: 6
+      Data: 
+    - Name: save
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|Ashen.DeliverySystem.ResourceChangeEffectBuilder, Assembly-CSharp
+    - Name: resourceValue
+      Entry: 10
+      Data: 4
+    - Name: deliveryValue
+      Entry: 7
+      Data: 31|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equationValue
+      Entry: 7
+      Data: 32|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 34|Ashen.EquationSystem.AttributeValue, Assembly-CSharp
+    - Name: enumSO
+      Entry: 10
+      Data: 6
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: true
+    - Name: currentIndex
+      Entry: 3
+      Data: 0
+    - Name: canBeCached
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multipleScale
+      Entry: 6
+      Data: 
+    - Name: flatScale
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: descriptions
+      Entry: 6
+      Data: 
+  visualize: "if(Wounds >= WoundThreshold)\n{\n\tif(!Has Dead)\n\t{\n\t\tApply Dead\n\t}\n}\nif(Wounds
+    < WoundThreshold)\n{\n\tif((!Has Dead AND !Has Unconcious))\n\t{\n\t\tApply Random
+    Wound\n\t\tApply Unconcious\n\t\tHP += -MaxHealth\n\t}\n}"

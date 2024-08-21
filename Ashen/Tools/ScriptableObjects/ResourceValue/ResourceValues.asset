@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be9e69cf4206fa4084d3873080beb1c, type: 3}
+  m_Name: ResourceValues
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: a837d83c30723c448941a6add0524791, type: 2}
+    - {fileID: 11400000, guid: 3092c6d7d3d0c3548a9030ba874c3986, type: 2}
+    - {fileID: 11400000, guid: eb1e12623736f6a4db2807de422817a8, type: 2}
+    - {fileID: 11400000, guid: 5378badbc30292d45adba979978a0899, type: 2}
+    - {fileID: 11400000, guid: 8df883013762ddd428d509fdf898cd56, type: 2}
+    - {fileID: 11400000, guid: 8f866ab093a1f514588ef6bab9d29b51, type: 2}
+    - {fileID: 11400000, guid: d6da97ee4a95929449c1d5dcaf80fcb0, type: 2}
+    - {fileID: 11400000, guid: 1f2f2925d12c8834996f1807b26dc59a, type: 2}
+    - {fileID: 11400000, guid: b5204b99ba0a128478061da233c38fd3, type: 2}
+    - {fileID: 11400000, guid: fa752ec42bd32724f804069da27d6c07, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: enumList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Ashen.ToolSystem.ResourceValue,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  health: {fileID: 11400000, guid: a837d83c30723c448941a6add0524791, type: 2}
+  CONCENTRATION: {fileID: 11400000, guid: b5204b99ba0a128478061da233c38fd3, type: 2}
+  ABILITY_RESOURCE: {fileID: 11400000, guid: 8df883013762ddd428d509fdf898cd56, type: 2}
+  ACTION_POINT: {fileID: 11400000, guid: fa752ec42bd32724f804069da27d6c07, type: 2}

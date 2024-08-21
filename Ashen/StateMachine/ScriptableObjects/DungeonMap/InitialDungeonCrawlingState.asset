@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ceeabb377a22c4cab576244b7e4db6, type: 3}
+  m_Name: InitialDungeonCrawlingState
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 3c571d5f793b5e44190e5c1927450cb7, type: 2}
+    - {fileID: 11400000, guid: 7f794cfd2fad2f042aba66cbef179275, type: 2}
+    - {fileID: 11400000, guid: dd61e207138ebe94ba6e0696a59e9100, type: 2}
+    - {fileID: 11400000, guid: 3824fad770bbb0845aed5b31d6958702, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: combatState
+      Entry: 10
+      Data: 0
+    - Name: victoryState
+      Entry: 10
+      Data: 1
+    - Name: failureState
+      Entry: 10
+      Data: 2
+    - Name: pauseScreenState
+      Entry: 10
+      Data: 3
+  smoothTransition: 1
+  transitionSpeed: 10
+  transitionRotationSpeed: 500
+  moveDelay: 0.15
+  rotateDelay: 0.15
+  startingEncounterPercentage: -50
+  baseEncounterRate: 5

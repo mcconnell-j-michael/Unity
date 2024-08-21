@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ebb83bcfb7e49479e28e29d8d76bca, type: 3}
+  m_Name: CurrentHealth
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: f89a00d9cd5980a41bbfaf684565e509, type: 2}
+    - {fileID: 11400000, guid: 1c797d49d2dd3df4fbdf24cb5ff75d42, type: 2}
+    - {fileID: 11400000, guid: 229b3402b55c67247a672c024c23512b, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: threshold
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ThresholdBuilder, Assembly-CSharp
+    - Name: thresholdType
+      Entry: 3
+      Data: 1
+    - Name: maxValue
+      Entry: 10
+      Data: 0
+    - Name: hasDecay
+      Entry: 5
+      Data: false
+    - Name: decayDelay
+      Entry: 10
+      Data: 1
+    - Name: decayRate
+      Entry: 10
+      Data: 2
+    - Name: maxIncrease
+      Entry: 3
+      Data: 0
+    - Name: maxDecrease
+      Entry: 3
+      Data: 1
+    - Name: onThresholdMet
+      Entry: 3
+      Data: 2
+    - Name: triggerOnThresholdMet
+      Entry: 6
+      Data: 
+    - Name: triggerEvents
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  listenOn:
+  - {fileID: 11400000, guid: ae15f9e5a51cb314190ad9284ed9bace, type: 2}
+  - {fileID: 11400000, guid: f2201a03bb2fdfb44bdb1719d079741f, type: 2}
+  - {fileID: 11400000, guid: d4b8b503cecd0d94987983d1552d15cf, type: 2}
+  - {fileID: 11400000, guid: d2def38733cbbde4182d14a8d703a1bc, type: 2}
+  - {fileID: 11400000, guid: 4195d1f36fb4e454d988a4290de6a6c9, type: 2}
+  - {fileID: 11400000, guid: fb9778dc86a77ed46a4cae2e74f89cd6, type: 2}
+  - {fileID: 11400000, guid: 3f2007123d8354c4bb44a4d291c9482e, type: 2}
+  - {fileID: 11400000, guid: 448a39b2852f5d343bab9d3c34d05bf5, type: 2}
+  - {fileID: 11400000, guid: a00740b2026202e41b58ffe97a17e40b, type: 2}
+  - {fileID: 11400000, guid: b01d37abec283c34888ff57e1fc521e3, type: 2}
+  - {fileID: 11400000, guid: 1a40e7d9340b715489b06a3df4d9ddaa, type: 2}

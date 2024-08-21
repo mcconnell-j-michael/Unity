@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ashen/UiToolKit/Test.uss?fileID=7433441132597879392&amp;guid=472390aafd9695944a06fec776bd7cdb&amp;type=3#Test" />
+
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DownloadedAssets/2000_Icons/Update_icons/skill_b_Standart/04_fire_rain.png?fileID=2800000&amp;guid=a59c751c587cf3a41857354161b41609&amp;type=3#04_fire_rain&quot;);">
+        <ui:VisualElement style="flex-grow: 1;" />
+            <ui:Button class="button" text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:Button class="button" text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:Button class="button" text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true"/>
+        <ui:VisualElement style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

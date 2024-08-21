@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab4f11b9fdc6eb4ba2d71034e488df6, type: 3}
+  m_Name: DefaultConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: f93ff9ed6ccbd7f40b24e2a391ff592e, type: 2}
+    - {fileID: 11400000, guid: 31aa96deed5ae6c429abf48764c237c5, type: 2}
+    - {fileID: 11400000, guid: 68404267b4a3150428acc1988e9a49e9, type: 2}
+    - {fileID: 11400000, guid: 1df5aeafe759e764c87c14f5d3d22ce3, type: 2}
+    - {fileID: 11400000, guid: c439138e70a80424cb9584289bbba109, type: 2}
+    - {fileID: 11400000, guid: 3ed12513287c4d246a694d3ef60eff5f, type: 2}
+    - {fileID: 11400000, guid: 4e1ef3925d0599a4fb724be6abefca69, type: 2}
+    - {fileID: 11400000, guid: 9c8e3e8cfac7c954387430b510afd95f, type: 2}
+    - {fileID: 11400000, guid: 1124957c05c00e2478e282e8a74f80e5, type: 2}
+    - {fileID: 11400000, guid: 3451a65c5acee9c4abc9fbb5316787a5, type: 2}
+    - {fileID: 11400000, guid: 2bdef0a08447c814c85281c15d702882, type: 2}
+    - {fileID: 11400000, guid: 828319df9138c1047b9f56caf08d4326, type: 2}
+    - {fileID: 11400000, guid: fb6b43317d5e90e4993cc17aa43826f3, type: 2}
+    - {fileID: 11400000, guid: b13ff660063e4fd4898ba15f7793c836, type: 2}
+    - {fileID: 11400000, guid: 0b511cea2624d904cac260d549e4255a, type: 2}
+    - {fileID: 11400000, guid: 47cbad5936603f848ab5ab0f3fb4bb3a, type: 2}
+    - {fileID: 11400000, guid: 6af13490d5a27e44a959c6510ff1c7b2, type: 2}
+    - {fileID: 11400000, guid: ef448b473d9852f43bc8a67d1f37bd65, type: 2}
+    - {fileID: 11400000, guid: 9b07de08a9943b54c8ef90651c01db4c, type: 2}
+    - {fileID: 11400000, guid: 4791209b21829084da68fa1b327f264a, type: 2}
+    - {fileID: 11400000, guid: 01056ade93359af45bb9a9b35e9ddc57, type: 2}
+    - {fileID: 11400000, guid: b15741dc3ad56284f9aaa70c5190adca, type: 2}
+    - {fileID: 11400000, guid: 42184241c61800246bfcf00713805577, type: 2}
+    - {fileID: 11400000, guid: 0c1adcf8ef04588459672ca81b9f0150, type: 2}
+    - {fileID: 11400000, guid: 0410161fd50d1034fa1c91242655f155, type: 2}
+    - {fileID: 11400000, guid: 4ef991193aff31f48955ec1afc28a0fe, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: configs
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Ashen.ToolSystem.I_Configuration,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: additionalConfigs
+      Entry: 6
+      Data: 
+  className: 
+  partyItemConfiguration: {fileID: 11400000, guid: 6af13490d5a27e44a959c6510ff1c7b2, type: 2}

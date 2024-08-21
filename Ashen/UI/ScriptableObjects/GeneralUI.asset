@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bcef733c66f12345b167561eb1540a1, type: 3}
+  m_Name: GeneralUI
+  m_EditorClassIdentifier: 
+  themeColors:
+  - {r: 0, g: 0.026150748, b: 0.24528301, a: 1}
+  - {r: 0.15873085, g: 0.4720061, b: 0.8207547, a: 1}
+  - {r: 0.6839622, g: 0.99381083, b: 1, a: 1}
+  - {r: 0.9811321, g: 0.8303621, b: 0.64328945, a: 1}
+  - {r: 0, g: 0.9853697, b: 1, a: 1}
+  - {r: 0, g: 0.50104207, b: 0.8207547, a: 1}
+  - {r: 0.47592562, g: 0.49171242, b: 0.8773585, a: 1}
+  - {r: 0.14978638, g: 0.45946014, b: 0.6226415, a: 1}
+  - {r: 0.44935924, g: 0.49960822, b: 0.509434, a: 1}
+  - {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+  - {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+  - {r: 1, g: 0.7076588, b: 0, a: 1}

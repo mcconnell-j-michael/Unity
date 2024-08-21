@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961351b88eea73244a3f82278fa62aa7, type: 3}
+  m_Name: EnergyCleanUpState
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: energyBurn
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equationValue
+      Entry: 7
+      Data: 1|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Ashen.EquationSystem.BasicValue, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 1
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multipleScale
+      Entry: 6
+      Data: 
+    - Name: flatScale
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  energies:
+  - value: {fileID: 11400000, guid: d6da97ee4a95929449c1d5dcaf80fcb0, type: 2}
+    midwayValue: {fileID: 11400000, guid: 0c5e9497e8075f44ca7a87aed281fd68, type: 2}
+    energyDamageType: {fileID: 11400000, guid: b01d37abec283c34888ff57e1fc521e3, type: 2}
+  - value: {fileID: 11400000, guid: 5378badbc30292d45adba979978a0899, type: 2}
+    midwayValue: {fileID: 11400000, guid: aed7f9b3127224d4398338f655b4b073, type: 2}
+    energyDamageType: {fileID: 11400000, guid: f2201a03bb2fdfb44bdb1719d079741f, type: 2}
+  - value: {fileID: 11400000, guid: 1f2f2925d12c8834996f1807b26dc59a, type: 2}
+    midwayValue: {fileID: 11400000, guid: 4ade3634eaf085a42ad76f1fb7407ea0, type: 2}
+    energyDamageType: {fileID: 11400000, guid: 448a39b2852f5d343bab9d3c34d05bf5, type: 2}
+  - value: {fileID: 11400000, guid: 3092c6d7d3d0c3548a9030ba874c3986, type: 2}
+    midwayValue: {fileID: 11400000, guid: cb6c11fe663784847ad2974fef92c86d, type: 2}
+    energyDamageType: {fileID: 11400000, guid: 1a40e7d9340b715489b06a3df4d9ddaa, type: 2}

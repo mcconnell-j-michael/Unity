@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3479498b8550cd34b9eb00417e936df1, type: 3}
+  m_Name: DefaultWoundToolConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: b4bd419b0e1dda247960cf98d29b2f5c, type: 2}
+    - {fileID: 11400000, guid: 8229d4934f24d3c4e80b0013e49fe22d, type: 2}
+    - {fileID: 11400000, guid: 474983ed2c8d98a4a81f2dee7cb20f1a, type: 2}
+    - {fileID: 11400000, guid: 2ef9c56364d6adc4598347ead77dac7c, type: 2}
+    - {fileID: 11400000, guid: 8892b647e8933d44cac195c96869306b, type: 2}
+    - {fileID: 11400000, guid: 468b528ef671fdb46b10aa0e0e0862cb, type: 2}
+    - {fileID: 11400000, guid: 6e050e08fc8e3de419a596bafa8d5993, type: 2}
+    - {fileID: 11400000, guid: af44f49b9fb0f2041b6a391b4219f272, type: 2}
+    - {fileID: 11400000, guid: 68a64f573c62e4442a075ba11c08f3ca, type: 2}
+    - {fileID: 11400000, guid: 4cdcba360915b654f86c1b0734d911cd, type: 2}
+    - {fileID: 11400000, guid: 866f5f7929c8bf349ad7f15f9bf8e668, type: 2}
+    - {fileID: 11400000, guid: f8bfcc7ff6282614dae89e97fb0e7bfd, type: 2}
+    - {fileID: 11400000, guid: 6246f297b631d3949932d2ef08e981d7, type: 2}
+    - {fileID: 11400000, guid: eb1e12623736f6a4db2807de422817a8, type: 2}
+    - {fileID: 11400000, guid: 59505e6e7c35479419e089e158791f03, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: enableDefaultOverride
+      Entry: 5
+      Data: false
+    - Name: defaultAvailableWounds
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Ashen.WoundSystem.WoundScriptableObject,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: additionalAvailableWounds
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Ashen.WoundSystem.WoundScriptableObject,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: woundResistancePerCategory
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[Ashen.WoundSystem.WoundCategory,
+        Assembly-CSharp],[DerivedAttribute, Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.ObjectEqualityComparer`1[[Ashen.WoundSystem.WoundCategory,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 8
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 12
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: woundResource
+      Entry: 10
+      Data: 13
+    - Name: woundScale
+      Entry: 10
+      Data: 14
+  isDefault: 1

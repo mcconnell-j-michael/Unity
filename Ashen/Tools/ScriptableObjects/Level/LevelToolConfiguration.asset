@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7b2c7f92adf2b43b7ae430ef18c586, type: 3}
+  m_Name: LevelToolConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 8f866ab093a1f514588ef6bab9d29b51, type: 2}
+    - {fileID: 11400000, guid: 7a6b282e6ea5e0f4280a30d61265c168, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: experienceResourceValue
+      Entry: 10
+      Data: 0
+    - Name: levelBaseAttribute
+      Entry: 10
+      Data: 1
+  isDefault: 1

@@ -1,0 +1,543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72da282f8bb4e4b488da84aef199d84b, type: 3}
+  m_Name: FrenziedStrike
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 69c603f7394d98049863f8a08b714e02, type: 2}
+    - {fileID: 11400000, guid: 32e744cb4560c81438fae00c00114f95, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: abilitySkillNode
+      Entry: 7
+      Data: 0|Ashen.SkillTree.AbilitySkillNode, Assembly-CSharp
+    - Name: FocusedSkill
+      Entry: 7
+      Data: 1|Ashen.SkillTree.AbilitySkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 2|Ashen.SkillTree.ScaleAbility, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 4|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enableAbilityOverride
+      Entry: 5
+      Data: false
+    - Name: abilityOverrideContainer
+      Entry: 7
+      Data: 5|Ashen.SkillTree.AbilityOverrideContainer, Assembly-CSharp
+    - Name: abilityOverrides
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: subAbilitySkillNodeOverrideList
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: skillLevel
+      Entry: 3
+      Data: 6
+    - Name: choice
+      Entry: 3
+      Data: 2
+    - Name: skills
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Ashen.SkillTree.AbilitySkillNodeOverride,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 7|Ashen.SkillTree.AbilitySkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 8|Ashen.SkillTree.ScaleAbility, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 9|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enableAbilityOverride
+      Entry: 5
+      Data: false
+    - Name: abilityOverrideContainer
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: subAbilitySkillNodeOverrideList
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 10|Ashen.SkillTree.AbilitySkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 11|Ashen.SkillTree.ScaleAbility, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 12|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 13|System.Collections.Generic.ObjectEqualityComparer`1[[EffectFloatArgument,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enableAbilityOverride
+      Entry: 5
+      Data: false
+    - Name: abilityOverrideContainer
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: subAbilitySkillNodeOverrideList
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Ashen.SkillTree.AbilitySkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 7
+      Data: 15|Ashen.SkillTree.ScaleAbility, Assembly-CSharp
+    - Name: scale
+      Entry: 7
+      Data: 16|System.Collections.Generic.Dictionary`2[[EffectFloatArgument, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 13
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enableAbilityOverride
+      Entry: 5
+      Data: false
+    - Name: abilityOverrideContainer
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: subAbilitySkillNodeOverrideList
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Ashen.SkillTree.AbilitySkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: subAbilitySkillNodeOverrideList
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Ashen.SkillTree.AbilitySkillNodeOverride, Assembly-CSharp
+    - Name: options
+      Entry: 3
+      Data: 0
+    - Name: scaleDeliveryPack
+      Entry: 6
+      Data: 
+    - Name: replaceSkillAbility
+      Entry: 6
+      Data: 
+    - Name: subAbilitySkillNodeOverrideList
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: baseAbility
+      Entry: 6
+      Data: 
+    - Name: builder
+      Entry: 7
+      Data: 19|Ashen.AbilitySystem.AbilityBuilder, Assembly-CSharp
+    - Name: listView
+      Entry: 5
+      Data: false
+    - Name: processorBuilders
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[Ashen.AbilitySystem.I_AbilityBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 21|Ashen.AbilitySystem.AbilityTargeting, Assembly-CSharp
+    - Name: targetType
+      Entry: 3
+      Data: 0
+    - Name: custom
+      Entry: 6
+      Data: 
+    - Name: attribute
+      Entry: 7
+      Data: 22|Ashen.AbilitySystem.AbilityTargetingAttribute, Assembly-CSharp
+    - Name: targetAttribute
+      Entry: 10
+      Data: 0
+    - Name: overrideRange
+      Entry: 6
+      Data: 
+    - Name: overrideTarget
+      Entry: 6
+      Data: 
+    - Name: shouldOverrideAbilityTags
+      Entry: 5
+      Data: false
+    - Name: overrideAbilityTags
+      Entry: 6
+      Data: 
+    - Name: ruleOverrides
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: targetParty
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Ashen.AbilitySystem.AbilityDeliveryPacks, Assembly-CSharp
+    - Name: attributeEffects
+      Entry: 6
+      Data: 
+    - Name: deliveryPack
+      Entry: 7
+      Data: 24|Ashen.DeliverySystem.DeliveryPackBuilder, Assembly-CSharp
+    - Name: visualize
+      Entry: 6
+      Data: 
+    - Name: deliveryPack
+      Entry: 6
+      Data: 
+    - Name: preFilters
+      Entry: 6
+      Data: 
+    - Name: postFilters
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Ashen.AbilitySystem.AbilityRequirements, Assembly-CSharp
+    - Name: requirements
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[Ashen.AbilitySystem.I_AbilityRequirement,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 27|Ashen.AbilitySystem.DeliveryValueRequirement, Assembly-CSharp
+    - Name: left
+      Entry: 7
+      Data: 28|Ashen.DeliverySystem.DerivedAttributeValue, Assembly-CSharp
+    - Name: derivedAttribute
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: comparison
+      Entry: 3
+      Data: 5
+    - Name: right
+      Entry: 7
+      Data: 29|Ashen.DeliverySystem.RangeValue, Assembly-CSharp
+    - Name: zero
+      Entry: 5
+      Data: true
+    - Name: value
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: hasCosts
+      Entry: 5
+      Data: false
+    - Name: costs
+      Entry: 7
+      Data: 30|Ashen.AbilitySystem.AbilityRequirementsCost, Assembly-CSharp
+    - Name: enableAP
+      Entry: 5
+      Data: false
+    - Name: actionPoints
+      Entry: 6
+      Data: 
+    - Name: enableRV
+      Entry: 5
+      Data: false
+    - Name: resourceValue
+      Entry: 6
+      Data: 
+    - Name: enableHP
+      Entry: 5
+      Data: false
+    - Name: health
+      Entry: 6
+      Data: 
+    - Name: customRequirements
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[Ashen.AbilitySystem.AbilityRequirementsCostCustom,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: doesGenerate
+      Entry: 5
+      Data: false
+    - Name: generates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|Ashen.AbilitySystem.AbilityHitChance, Assembly-CSharp
+    - Name: canMiss
+      Entry: 5
+      Data: false
+    - Name: hitChanceValue
+      Entry: 6
+      Data: 
+    - Name: canCrit
+      Entry: 5
+      Data: false
+    - Name: critChanceValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Ashen.AbilitySystem.AbilitySpeed, Assembly-CSharp
+    - Name: option
+      Entry: 3
+      Data: 0
+    - Name: speedCategory
+      Entry: 6
+      Data: 
+    - Name: speedEquation
+      Entry: 7
+      Data: 34|Ashen.VariableSystem.Reference`1[[Ashen.EquationSystem.I_Equation,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: usingConstant
+      Entry: 3
+      Data: 0
+    - Name: variable
+      Entry: 6
+      Data: 
+    - Name: constant
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Ashen.AbilitySystem.AbilityAnimation, Assembly-CSharp
+    - Name: animation
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Ashen.AbilitySystem.SubAbilityListBuilder, Assembly-CSharp
+    - Name: targetAttribute
+      Entry: 6
+      Data: 
+    - Name: subAbilities
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: choice
+      Entry: 3
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: Frenzied Strike
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: passiveSkillNode
+      Entry: 6
+      Data: 
+  levels: 6
+  skillLevels: 6
+  skillType: 0

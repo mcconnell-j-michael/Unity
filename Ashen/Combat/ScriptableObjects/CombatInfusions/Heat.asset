@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61fd1412abcf14faecb9688490fbb3, type: 3}
+  m_Name: Heat
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: index
+      Entry: 3
+      Data: 0
+  infusionEffectResistance: {fileID: 11400000, guid: 81dc7ba8b7519c04486f20712a80a668, type: 2}
+  infusionEffectResistanceMult: {fileID: 11400000, guid: 169c9a08f08bd7a42956d789ae8243a8, type: 2}
+  infusionLevel: {fileID: 11400000, guid: 1135050cfebd9334fa8499afa73d1c99, type: 2}
+  infusionMaxLevel: {fileID: 11400000, guid: 4947abdf027323942b679db917db3cb2, type: 2}
+  saturationBaseLimit: {fileID: 11400000, guid: 20332804a0fc2b249a5693fe2c27ebba, type: 2}
+  saturationBonusLimit: {fileID: 11400000, guid: 483a5aad31f656a43b8d96335aa70393, type: 2}
+  saturationLimit: {fileID: 11400000, guid: 4ade3634eaf085a42ad76f1fb7407ea0, type: 2}
+  saturationMax: {fileID: 11400000, guid: 95e32b3af44932b43944412eba93d48a, type: 2}
+  currentSaturationValue: {fileID: 11400000, guid: 1f2f2925d12c8834996f1807b26dc59a, type: 2}

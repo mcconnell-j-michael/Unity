@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab4f11b9fdc6eb4ba2d71034e488df6, type: 3}
+  m_Name: MageConfiguration
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 83727debfa5d868428bd63d6d5409ba2, type: 2}
+    - {fileID: 11400000, guid: 57b9fdb52b1248348843ba2241e849fa, type: 2}
+    - {fileID: 11400000, guid: 4b838d08821bf9447885c44dd773cc3b, type: 2}
+    - {fileID: 11400000, guid: a652d9439438e9f45a2c7f48be750771, type: 2}
+    - {fileID: 11400000, guid: 54e38159aed71f84ca6840028076ed12, type: 2}
+    - {fileID: 11400000, guid: 5c2fb19e1e981794f9bcc0796f309d05, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: configs
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Ashen.ToolSystem.I_Configuration,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  className: Mage
+  partyItemConfiguration: {fileID: 0}

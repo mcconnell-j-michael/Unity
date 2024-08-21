@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b909bff11e24f9242830c54fcd55a913, type: 3}
+  m_Name: DeliveryPacks
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: gameManagerOption
+      Entry: 7
+      Data: 0|Ashen.GameManagerWindow.GameManagerAssetOption, Assembly-CSharp-Editor
+    - Name: sourceType
+      Entry: 7
+      Data: 1|TypeReference, Assembly-CSharp
+    - Name: classRef
+      Entry: 1
+      Data: Ashen.DeliverySystem.DeliveryPackScriptableObject, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: customPath
+      Entry: 5
+      Data: false
+    - Name: searchPaths
+      Entry: 6
+      Data: 
+    - Name: includeAllSubPaths
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 

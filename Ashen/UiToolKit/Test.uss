@@ -1,0 +1,7 @@
+/* import globals here */
+
+
+.button {
+    background-color: blue;
+    height: 2.5px;
+}

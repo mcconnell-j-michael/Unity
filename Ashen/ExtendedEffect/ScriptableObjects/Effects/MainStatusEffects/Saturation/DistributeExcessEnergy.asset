@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774a91478e31dc548964fb60da606466, type: 3}
+  m_Name: DistributeExcessEnergy
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 15ecdf524ce732442a9456f031a33f77, type: 2}
+    - {fileID: 11400000, guid: 448a39b2852f5d343bab9d3c34d05bf5, type: 2}
+    - {fileID: 11400000, guid: 94e22cd36cc711e4b88e505f25e7935a, type: 2}
+    - {fileID: 11400000, guid: 1f2f2925d12c8834996f1807b26dc59a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: statusEffect
+      Entry: 7
+      Data: 0|Ashen.DeliverySystem.ExtendedEffectBuilder, Assembly-CSharp
+    - Name: key
+      Entry: 1
+      Data: DistributeExcessEnergy
+    - Name: tagHandler
+      Entry: 7
+      Data: 1|Ashen.DeliverySystem.TagHandler, Assembly-CSharp
+    - Name: visualize
+      Entry: 6
+      Data: 
+    - Name: tagOperations
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_TagOperation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: baseStatusEffects
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Ashen.DeliverySystem.I_ComponentBuilder,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|Ashen.DeliverySystem.TriggeredComponentBuilder, Assembly-CSharp
+    - Name: triggers
+      Entry: 7
+      Data: 5|Ashen.DeliverySystem.ExtendedEffectTrigger[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effect
+      Entry: 7
+      Data: 6|Ashen.DeliverySystem.DamagePackBuilder, Assembly-CSharp
+    - Name: option
+      Entry: 3
+      Data: 0
+    - Name: useWeapon
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 10
+      Data: 1
+    - Name: damageTypes
+      Entry: 6
+      Data: 
+    - Name: deliveryValue
+      Entry: 7
+      Data: 7|Ashen.DeliverySystem.ScalingValueBuilder, Assembly-CSharp
+    - Name: equationValue
+      Entry: 7
+      Data: 8|Ashen.EquationSystem.Equation, Assembly-CSharp
+    - Name: testData
+      Entry: 5
+      Data: false
+    - Name: validEquation
+      Entry: 5
+      Data: true
+    - Name: reason
+      Entry: 6
+      Data: 
+    - Name: parseReason
+      Entry: 6
+      Data: 
+    - Name: equationComponents
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[Ashen.EquationSystem.I_EquationComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 10|Ashen.EquationSystem.ResourceValueValue, Assembly-CSharp
+    - Name: enumSO
+      Entry: 10
+      Data: 3
+    - Name: useTarget
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: newCalculation
+      Entry: 5
+      Data: true
+    - Name: keepGoing
+      Entry: 5
+      Data: false
+    - Name: currentIndex
+      Entry: 3
+      Data: 2
+    - Name: canBeCached
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multipleScale
+      Entry: 6
+      Data: 
+    - Name: flatScale
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: limit
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
